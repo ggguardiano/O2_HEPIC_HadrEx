@@ -1,0 +1,42 @@
+{
+    "internal-dpl-clock": "",
+    "internal-dpl-aod-reader": {
+        "time-limit": "0",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1",
+        "aod-file": "AO2D-LHC21k6-1.root"
+    },
+    "internal-dpl-injected-dummy-sink": "",
+    "collision-converter": {
+        "doNotSwap": "false",
+        "debug": "false",
+        "nbins": "1",
+        "tolerance": "0.00100000005"
+    },
+    "internal-dpl-aod-spawner": "",
+    "timestamp-task": {
+        "verbose": "false",
+        "rct-path": "RCT\/Info\/RunInformation",
+        "orbit-reset-path": "CTP\/Calib\/OrbitReset",
+        "ccdb-url": "http:\/\/alice-ccdb.cern.ch",
+        "isRun2MC": "false"
+    },
+    "track-propagation": {
+        "ccdb-url": "http:\/\/alice-ccdb.cern.ch",
+        "lutPath": "GLO\/Param\/MatLUT",
+        "geoPath": "GLO\/Config\/GeometryAligned",
+        "grpmagPath": "GLO\/Config\/GRPMagField",
+        "mVtxPath": "GLO\/Calib\/MeanVertex",
+        "minPropagationDistance": "83.0999985",
+        "processStandard": "true",
+        "processCovariance": "false"
+    },
+    "twoparcorcombexample": {
+        "nBins": "100"
+    },
+    "internal-dpl-aod-global-analysis-file-sink": "",
+    "internal-dpl-aod-writer": ""
+}
