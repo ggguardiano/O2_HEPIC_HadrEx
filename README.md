@@ -4,6 +4,7 @@ Unicamp+USP taskforce  for the ALICE O2 framework
 usefull links:
 - O2 documentation: https://aliceo2group.github.io/analysis-framework/docs/
 - O2 Tutorial: https://indico.cern.ch/event/1200252/timetable/
+- O2 Tutorial (new): https://indico.cern.ch/event/1326201/timetable/
 
 "Recipe" for working with your task:
 1) Create your task (.cxx)
